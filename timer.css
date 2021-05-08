@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+*{
+   box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Lato, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url(https://images.unsplash.com/photo-1560217288-f81775d147a8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+    background-position: center center;
+    color: black;
+}
+
+h2{
+    font-size: 4rem;
+    margin-top: -6rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.big-text{
+    font-size: 6rem;
+    font-family: Prata, monospace ;
+}
+
+.timer-el {
+    text-align: center;
+    margin-right: 2rem;
+  }
+  
+  .timer-el span {
+    font-size: 2rem;
+  }
